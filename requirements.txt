@@ -1,0 +1,10 @@
+celery==4.1.0
+eventlet
+PyMySQL==0.7.11
+PyYAML==3.12
+requests==2.18.4
+SQLAlchemy==1.2.5
+tornado==4.5.3
+PyJWT==1.5.3
+ldap3==2.3
+alembic

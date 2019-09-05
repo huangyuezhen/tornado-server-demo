@@ -1,0 +1,25 @@
+debug: True
+
+server:
+    port: 8010
+    log_path: logs
+    run_path: run
+
+database_url: 'mysql+pymysql://remote_user:remote_passwd@10.10.50.30/cmdb?charset=utf8'
+
+database_config:
+    encoding: utf8
+    pool_recycle: 3600
+    echo : False
+    pool_size: 10
+
+token_secret: token_secret
+
+ldap:
+    ldap_server: 192.168.1.96
+    baseDN: ou=研发部,ou=产研中心,ou=User,dc=yunnex,dc=com
+    port: 389
+    user: cn=devops,ou=运维,ou=运维工程部,ou=研发部,ou=产研中心,ou=User,dc=yunnex,dc=com
+    password: GRjPXl1bm5
+
+
