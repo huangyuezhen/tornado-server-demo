@@ -1,4 +1,4 @@
-celery==4.1.0
+celery==5.2.2
 eventlet
 PyMySQL==0.7.11
 PyYAML==3.12
